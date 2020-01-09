@@ -1,0 +1,259 @@
+# Hindi translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-01-09 19:41+0530\n"
+"PO-Revision-Date: 2020-01-09 19:43+0530\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: hi\n"
+"Language-Team: hi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: app/__init__.py:21
+msgid "Please log in to access this page."
+msgstr "इस पृष्ठ का प्रयोग करने केलिए लॉगिन करें।"
+
+#: app/email.py:22
+msgid "[Microblog] Reset Your Password"
+msgstr "अपना पासवर्ड रीसेट करें"
+
+#: app/forms.py:9 app/forms.py:16 app/forms.py:35
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
+
+#: app/forms.py:10 app/forms.py:18 app/forms.py:62
+msgid "Password"
+msgstr "कुंजिका"
+
+#: app/forms.py:11
+msgid "Remember Me"
+msgstr "मुझे याद रखना"
+
+#: app/forms.py:12 app/routes.py:71 app/templates/login.html:5
+msgid "Sign In"
+msgstr "साइन इन करें"
+
+#: app/forms.py:17 app/forms.py:57
+msgid "Email"
+msgstr "ईमेल"
+
+#: app/forms.py:19 app/forms.py:64
+msgid "Repeat Password"
+msgstr "कुंजिका दोहराएं"
+
+#: app/forms.py:21 app/routes.py:93 app/templates/register.html:5
+msgid "Register"
+msgstr "रजिस्टर करें"
+
+#: app/forms.py:26 app/forms.py:48
+msgid "Please use a different username."
+msgstr "कृपया एक अलग उपयोगकर्ता नाम का उपयोग करें"
+
+#: app/forms.py:31
+msgid "Please use a different email address."
+msgstr "कृपया एक अलग ईमेल पते का उपयोग करें।"
+
+#: app/forms.py:36
+msgid "About me"
+msgstr "मेरे बारे में"
+
+#: app/forms.py:38 app/forms.py:53
+msgid "Submit"
+msgstr "जमा करें"
+
+#: app/forms.py:52
+msgid "Say something"
+msgstr "कुछ बोलें"
+
+#: app/forms.py:58 app/forms.py:66
+msgid "Request Password Reset"
+msgstr "पासवर्ड रीसेट का अनुरोध करें"
+
+#: app/routes.py:15
+msgid "classified"
+msgstr "वर्गीकृत"
+
+#: app/routes.py:28 app/templates/base.html:22
+msgid "Explore"
+msgstr "एक्सप्लोरर"
+
+#: app/routes.py:41
+msgid "Your post is now live!"
+msgstr "आपकी पोस्ट अब लाइव है!"
+
+#: app/routes.py:50 app/templates/base.html:21
+msgid "Home"
+msgstr "घर"
+
+#: app/routes.py:63
+msgid "Invalid username or password, try again."
+msgstr "अमान्य उपयोगकर्ता नाम या पासवर्ड, पुनः प्रयास करें।"
+
+#: app/routes.py:77
+msgid "You are now logged out"
+msgstr "अब आप लॉग आउट कर रहे हैं"
+
+#: app/routes.py:91
+msgid "Congratulations, you are now a registered user!"
+msgstr "बधाई हो, अब आप एक पंजीकृत उपयोगकर्ता हैं!"
+
+#: app/routes.py:127
+msgid "Your changes have been saved."
+msgstr "आपके परिवर्तनों को सहेजा गया है।"
+
+#: app/routes.py:132 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "प्रोफ़ाइल संपादित करें"
+
+#: app/routes.py:141 app/routes.py:157
+#, python-format
+msgid "User %(username)s not found."
+msgstr "उपयोगकर्ता %(username)s नहीं मिला।"
+
+#: app/routes.py:144
+msgid "You cannot follow yourself!"
+msgstr "आप स्वयं का अनुसरण नहीं कर सकते!"
+
+#: app/routes.py:148
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "You are following %(username)s!"
+
+#: app/routes.py:160
+msgid "You cannot unfollow yourself!"
+msgstr "आप खुद को अनफॉलो नहीं कर सकते हैं!"
+
+#: app/routes.py:164
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "You are not following %(username)s."
+
+#: app/routes.py:177
+msgid "Check your email for the instructions to reset your password"
+msgstr "अपना पासवर्ड रीसेट करने के निर्देशों के लिए अपना ईमेल देखें"
+
+#: app/routes.py:179 app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "पासवर्ड रीसेट"
+
+#: app/routes.py:193
+msgid "Your password has been reset."
+msgstr "आपका पासवर्ड रिसेट कर दिया गया है।"
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr "नहीं मिला"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "वापस"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "एक अनपेक्षित त्रुटि हो गई है"
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "व्यवस्थापक को सूचित कर दिया गया है। असुविधा के लिए खेद है!"
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s ने कहा %(when)s"
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "माइक्रोब्लॉग में आपका स्वागत है"
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr "लॉग इन करें"
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr "प्रोफ़ाइल"
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr "लॉग आउट"
+
+#: app/templates/classified.html:4
+msgid "Congrats!!"
+msgstr "बधाई!!"
+
+#: app/templates/classified.html:5
+msgid "This is a classified page."
+msgstr "यह एक वर्गीकृत पृष्ठ है।"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "नमस्ते, %(username)s!"
+
+#: app/templates/index.html:17 app/templates/profile.html:48
+msgid "Newer posts"
+msgstr "नए पोस्टस"
+
+#: app/templates/index.html:22 app/templates/profile.html:53
+msgid "Older posts"
+msgstr "पुराने पोस्ट"
+
+#: app/templates/login.html:12
+msgid "New User?"
+msgstr "नया उपयोगकर्ता?"
+
+#: app/templates/login.html:12
+msgid "Click to Register!"
+msgstr "रजिस्टर करने के लिए क्लिक करें!"
+
+#: app/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "क्या आप पासवर्ड भूल गए?"
+
+#: app/templates/login.html:15
+msgid "Click to Reset It"
+msgstr "रीसेट करने के लिए क्लिक करें"
+
+#: app/templates/profile.html:7
+msgid "User"
+msgstr "उपयोगकर्ता"
+
+#: app/templates/profile.html:15
+msgid "Last seen:"
+msgstr "अंतिम बार देखा गया:"
+
+#: app/templates/profile.html:19
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d followers"
+
+#: app/templates/profile.html:19
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d following"
+
+#: app/templates/profile.html:23
+msgid "Edit your profile"
+msgstr "अपनी प्रोफाइल सम्पादित करें"
+
+#: app/templates/profile.html:27
+msgid "Follow"
+msgstr "Follow"
+
+#: app/templates/profile.html:31
+msgid "Unfollow"
+msgstr "Unfollow"
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "अपना पासवर्ड रीसेट करें"
+
