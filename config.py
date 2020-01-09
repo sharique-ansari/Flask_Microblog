@@ -16,3 +16,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['sharique@gmail.com']
     LANGUAGES = ['en', 'hi']
+    MS_TRANSLATOR_KEY = os.environ.get('MS_TRANSLATOR_KEY')

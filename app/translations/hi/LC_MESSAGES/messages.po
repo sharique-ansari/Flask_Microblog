@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-09 19:41+0530\n"
+"POT-Creation-Date: 2020-01-09 22:55+0530\n"
 "PO-Revision-Date: 2020-01-09 19:43+0530\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: hi\n"
@@ -38,7 +38,7 @@ msgstr "कुंजिका"
 msgid "Remember Me"
 msgstr "मुझे याद रखना"
 
-#: app/forms.py:12 app/routes.py:71 app/templates/login.html:5
+#: app/forms.py:12 app/routes.py:84 app/templates/login.html:5
 msgid "Sign In"
 msgstr "साइन इन करें"
 
@@ -50,7 +50,7 @@ msgstr "ईमेल"
 msgid "Repeat Password"
 msgstr "कुंजिका दोहराएं"
 
-#: app/forms.py:21 app/routes.py:93 app/templates/register.html:5
+#: app/forms.py:21 app/routes.py:106 app/templates/register.html:5
 msgid "Register"
 msgstr "रजिस्टर करें"
 
@@ -78,76 +78,84 @@ msgstr "कुछ बोलें"
 msgid "Request Password Reset"
 msgstr "पासवर्ड रीसेट का अनुरोध करें"
 
-#: app/routes.py:15
+#: app/routes.py:25
 msgid "classified"
 msgstr "वर्गीकृत"
 
-#: app/routes.py:28 app/templates/base.html:22
+#: app/routes.py:38 app/templates/base.html:22
 msgid "Explore"
 msgstr "एक्सप्लोरर"
 
-#: app/routes.py:41
+#: app/routes.py:54
 msgid "Your post is now live!"
 msgstr "आपकी पोस्ट अब लाइव है!"
 
-#: app/routes.py:50 app/templates/base.html:21
+#: app/routes.py:63 app/templates/base.html:21
 msgid "Home"
 msgstr "घर"
 
-#: app/routes.py:63
+#: app/routes.py:76
 msgid "Invalid username or password, try again."
 msgstr "अमान्य उपयोगकर्ता नाम या पासवर्ड, पुनः प्रयास करें।"
 
-#: app/routes.py:77
+#: app/routes.py:90
 msgid "You are now logged out"
 msgstr "अब आप लॉग आउट कर रहे हैं"
 
-#: app/routes.py:91
+#: app/routes.py:104
 msgid "Congratulations, you are now a registered user!"
 msgstr "बधाई हो, अब आप एक पंजीकृत उपयोगकर्ता हैं!"
 
-#: app/routes.py:127
+#: app/routes.py:140
 msgid "Your changes have been saved."
 msgstr "आपके परिवर्तनों को सहेजा गया है।"
 
-#: app/routes.py:132 app/templates/edit_profile.html:5
+#: app/routes.py:145 app/templates/edit_profile.html:5
 msgid "Edit Profile"
 msgstr "प्रोफ़ाइल संपादित करें"
 
-#: app/routes.py:141 app/routes.py:157
+#: app/routes.py:154 app/routes.py:170
 #, python-format
 msgid "User %(username)s not found."
 msgstr "उपयोगकर्ता %(username)s नहीं मिला।"
 
-#: app/routes.py:144
+#: app/routes.py:157
 msgid "You cannot follow yourself!"
 msgstr "आप स्वयं का अनुसरण नहीं कर सकते!"
 
-#: app/routes.py:148
+#: app/routes.py:161
 #, python-format
 msgid "You are following %(username)s!"
 msgstr "You are following %(username)s!"
 
-#: app/routes.py:160
+#: app/routes.py:173
 msgid "You cannot unfollow yourself!"
 msgstr "आप खुद को अनफॉलो नहीं कर सकते हैं!"
 
-#: app/routes.py:164
+#: app/routes.py:177
 #, python-format
 msgid "You are not following %(username)s."
 msgstr "You are not following %(username)s."
 
-#: app/routes.py:177
+#: app/routes.py:190
 msgid "Check your email for the instructions to reset your password"
 msgstr "अपना पासवर्ड रीसेट करने के निर्देशों के लिए अपना ईमेल देखें"
 
-#: app/routes.py:179 app/templates/reset_password_request.html:5
+#: app/routes.py:192 app/templates/reset_password_request.html:5
 msgid "Reset Password"
 msgstr "पासवर्ड रीसेट"
 
-#: app/routes.py:193
+#: app/routes.py:206
 msgid "Your password has been reset."
 msgstr "आपका पासवर्ड रिसेट कर दिया गया है।"
+
+#: app/translate.py:9
+msgid "Error: the translation service is not configured."
+msgstr "त्रुटि: अनुवाद सेवा कॉन्फ़िगर नहीं है।"
+
+#: app/translate.py:16
+msgid "Error: the translation service failed."
+msgstr "त्रुटि: अनुवाद सेवा विफल।"
 
 #: app/templates/404.html:4
 msgid "Not Found"
@@ -170,6 +178,10 @@ msgstr "व्यवस्थापक को सूचित कर दिय�
 msgid "%(username)s said %(when)s"
 msgstr "%(username)s ने कहा %(when)s"
 
+#: app/templates/_post.html:25
+msgid "Translate"
+msgstr "अनुवाद करे"
+
 #: app/templates/base.html:4
 msgid "Welcome to Microblog"
 msgstr "माइक्रोब्लॉग में आपका स्वागत है"
@@ -185,6 +197,10 @@ msgstr "प्रोफ़ाइल"
 #: app/templates/base.html:29
 msgid "Logout"
 msgstr "लॉग आउट"
+
+#: app/templates/base.html:66
+msgid "Error: Could not contact server."
+msgstr "त्रुटि: सर्वर से संपर्क नहीं कर सका।"
 
 #: app/templates/classified.html:4
 msgid "Congrats!!"
