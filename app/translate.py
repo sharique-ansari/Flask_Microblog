@@ -3,6 +3,7 @@ import requests
 from flask_babel import _
 from flask import current_app
 
+
 def translate(text, source_language, dest_language):
     if 'MS_TRANSLATOR_KEY' not in current_app.config or \
             not current_app.config['MS_TRANSLATOR_KEY']:
