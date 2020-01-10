@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-01-10 04:37+0530\n"
+"POT-Creation-Date: 2020-01-11 02:24+0530\n"
 "PO-Revision-Date: 2020-01-09 19:43+0530\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: hi\n"
@@ -46,7 +46,7 @@ msgstr "कुंजिका"
 msgid "Remember Me"
 msgstr "मुझे याद रखना"
 
-#: app/auth/forms.py:12 app/auth/routes.py:29 app/templates/login.html:5
+#: app/auth/forms.py:12 app/auth/routes.py:29 app/templates/auth/login.html:5
 msgid "Sign In"
 msgstr "साइन इन करें"
 
@@ -111,6 +111,10 @@ msgstr "जमा करें"
 msgid "Say something"
 msgstr "कुछ बोलें"
 
+#: app/main/forms.py:32 app/main/routes.py:151
+msgid "Search"
+msgstr "खोज"
+
 #: app/main/routes.py:34
 msgid "Your post is now live!"
 msgstr "आपकी पोस्ट अब लाइव है!"
@@ -171,19 +175,19 @@ msgstr "अनुवाद करे"
 msgid "Welcome to Microblog"
 msgstr "माइक्रोब्लॉग में आपका स्वागत है"
 
-#: app/templates/base.html:26
+#: app/templates/base.html:33
 msgid "Login"
 msgstr "लॉग इन करें"
 
-#: app/templates/base.html:28
+#: app/templates/base.html:35
 msgid "Profile"
 msgstr "प्रोफ़ाइल"
 
-#: app/templates/base.html:29
+#: app/templates/base.html:36
 msgid "Logout"
 msgstr "लॉग आउट"
 
-#: app/templates/base.html:66
+#: app/templates/base.html:73
 msgid "Error: Could not contact server."
 msgstr "त्रुटि: सर्वर से संपर्क नहीं कर सका।"
 
@@ -207,22 +211,6 @@ msgstr "नए पोस्टस"
 #: app/templates/index.html:22 app/templates/profile.html:53
 msgid "Older posts"
 msgstr "पुराने पोस्ट"
-
-#: app/templates/login.html:12
-msgid "New User?"
-msgstr "नया उपयोगकर्ता?"
-
-#: app/templates/login.html:12
-msgid "Click to Register!"
-msgstr "रजिस्टर करने के लिए क्लिक करें!"
-
-#: app/templates/login.html:14
-msgid "Forgot Your Password?"
-msgstr "क्या आप पासवर्ड भूल गए?"
-
-#: app/templates/login.html:15
-msgid "Click to Reset It"
-msgstr "रीसेट करने के लिए क्लिक करें"
 
 #: app/templates/profile.html:7
 msgid "User"
@@ -254,6 +242,34 @@ msgstr ""
 msgid "Unfollow"
 msgstr ""
 
+#: app/templates/search.html:4
+msgid "Search Results"
+msgstr "खोज परिणाम"
+
+#: app/templates/search.html:13
+msgid "Previous results"
+msgstr "पिछले परिणाम"
+
+#: app/templates/search.html:18
+msgid "Next results"
+msgstr "अगले परिणाम"
+
+#: app/templates/auth/login.html:12
+msgid "New User?"
+msgstr "नया उपयोगकर्ता?"
+
+#: app/templates/auth/login.html:12
+msgid "Click to Register!"
+msgstr "रजिस्टर करने के लिए क्लिक करें!"
+
+#: app/templates/auth/login.html:14
+msgid "Forgot Your Password?"
+msgstr "क्या आप पासवर्ड भूल गए?"
+
+#: app/templates/auth/login.html:15
+msgid "Click to Reset It"
+msgstr "रीसेट करने के लिए क्लिक करें"
+
 #: app/templates/auth/reset_password.html:5
 msgid "Reset Your Password"
 msgstr "अपना पासवर्ड रीसेट करें"
@@ -273,6 +289,4 @@ msgstr "एक अनपेक्षित त्रुटि हो गई ह�
 #: app/templates/errors/500.html:5
 msgid "The administrator has been notified. Sorry for the inconvenience!"
 msgstr "व्यवस्थापक को सूचित कर दिया गया है। असुविधा के लिए खेद है!"
-
-
 
